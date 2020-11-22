@@ -8,7 +8,7 @@ namespace SarahShaw.Controllers.API
     public class JobsController : ApiController
     {
         [HttpGet]
-        public List<JobSummaryDTO> GetJobSummary()
+        public List<JobSummaryDTO> All()
         {
             JobsRepository jobs = new JobsRepository();
             return jobs.GetJobSummary();
