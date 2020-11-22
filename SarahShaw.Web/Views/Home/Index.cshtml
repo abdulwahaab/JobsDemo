@@ -1,0 +1,39 @@
+﻿@model List<SarahShaw.DTO.JobDTO>
+
+@{
+    ViewBag.Title = "All Jobs";
+}
+
+<h2>All jobs</h2>
+
+<table class="jobs-table" border="1" cellspacing="0">
+    <tr>
+        <th>Job ID</th>
+        <th>Name</th>
+        <th>Floor</th>
+        <th>Job Status</th>
+        <th>Room Type</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr id="trJob-@item.JobId" class="status-@item.Status.ToLower().Replace(" ","")">
+            <td>@item.JobId</td>
+            <td>@item.Name</td>
+            <td>@item.Floor</td>
+            <td id="status-@item.JobId">@item.Status</td>
+            <td>@item.RoomType</td>
+            <td>
+                @if (item.Status.ToLower() == "in progress" || item.Status.ToLower() == "delayed")
+                {
+                    <input id="btnMarkComplete-@item.JobId" type="button" class="btnMarkComplete" value="Mark as complete" data-jobid="@item.JobId" />
+                }
+            </td>
+        </tr>
+    }
+</table>
+<div id="overlay"></div>
+
+<link href="~/Style/site.css" rel="stylesheet" />
+<script type="text/javascript" src="~/Scripts/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="~/Scripts/App/jobs.js"></script>

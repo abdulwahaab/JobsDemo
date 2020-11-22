@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="RX_Job">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ContractorID" Type="int" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+    <Property Name="Floor" Type="int" />
+    <Property Name="Room" Type="int" />
+    <Property Name="DelayReason" Type="varchar" MaxLength="50" />
+    <Property Name="DateCreated" Type="datetime" />
+    <Property Name="DateCompleted" Type="datetime" />
+    <Property Name="DateDelayed" Type="datetime" />
+    <Property Name="StatusNum" Type="int" />
+    <Property Name="RJobID" Type="int" />
+    <Property Name="RoomTypeId" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="RX_RoomType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="28" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityContainer Name="DemoModelStoreContainer">
+    <EntitySet Name="RX_Job" EntityType="Self.RX_Job" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RX_RoomType" EntityType="Self.RX_RoomType" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

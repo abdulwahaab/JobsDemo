@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DemoModelStoreContainer" CdmEntityContainer="DemoEntities">
+    <EntitySetMapping Name="RX_Job">
+      <EntityTypeMapping TypeName="DemoModel.RX_Job">
+        <MappingFragment StoreEntitySet="RX_Job">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ContractorID" ColumnName="ContractorID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Floor" ColumnName="Floor" />
+          <ScalarProperty Name="Room" ColumnName="Room" />
+          <ScalarProperty Name="DelayReason" ColumnName="DelayReason" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="DateCompleted" ColumnName="DateCompleted" />
+          <ScalarProperty Name="DateDelayed" ColumnName="DateDelayed" />
+          <ScalarProperty Name="StatusNum" ColumnName="StatusNum" />
+          <ScalarProperty Name="RJobID" ColumnName="RJobID" />
+          <ScalarProperty Name="RoomTypeId" ColumnName="RoomTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RX_RoomType">
+      <EntityTypeMapping TypeName="DemoModel.RX_RoomType">
+        <MappingFragment StoreEntitySet="RX_RoomType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
