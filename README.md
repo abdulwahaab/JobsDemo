@@ -19,3 +19,5 @@ Run the project in your local browser by pressing F5 in visual studio when the s
 
 **Web Page:** The web page containt list of all jobs in the database and can be accessed using https://localhost:44347/home/index.
 **Web API:** The web api returns the jobs summary with room types, total jobs in specific room type and status of the job. The API can be accessed via end point https://localhost:44347/api/jobs/all
+
+**The port number may be different on your machine**
