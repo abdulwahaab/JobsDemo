@@ -10,3 +10,14 @@ C:\Users\Abdul\Desktop\Projects\SarahShaw\SarahShaw.Data\obj\Debug\SarahShaw.Dat
 C:\Users\Abdul\Desktop\Projects\SarahShaw\SarahShaw.Data\obj\Debug\SarahShaw.Data.dll
 C:\Users\Abdul\Desktop\Projects\SarahShaw\SarahShaw.Data\obj\Debug\SarahShaw.Data.pdb
 C:\Users\Abdul\Desktop\Projects\SarahShaw\SarahShaw.Data\obj\Debug\SarahShaw.Data.csprojAssemblyReference.cache
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\bin\Debug\SarahShaw.Data.dll.config
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\bin\Debug\SarahShaw.Data.dll
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\bin\Debug\SarahShaw.Data.pdb
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\bin\Debug\EntityFramework.dll
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\bin\Debug\EntityFramework.xml
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\obj\Debug\SarahShaw.Data.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\obj\Debug\SarahShaw.Data.csproj.CopyComplete
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\obj\Debug\SarahShaw.Data.dll
+C:\Users\Abdul\Desktop\Projects\JobsDemo\SarahShaw.Data\obj\Debug\SarahShaw.Data.pdb
